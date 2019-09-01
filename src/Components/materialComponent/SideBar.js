@@ -145,10 +145,10 @@ export default function SideBar({onSubmit1,onSubmit2,onSubmit3,onSubmit4,onSubmi
               <ListItemIcon><InboxIcon /></ListItemIcon>
               <ListItemText primary={'Home'} />
             </ListItem>
-            <a href="http://">
+            <a href="http://172.16.82.90:3002/next">
             <ListItem button key={'Edit Profile'} >
               <ListItemIcon><InboxIcon /></ListItemIcon>
-              <ListItemText primary={'Home'} />
+              <ListItemText primary={'Edit Profile'} />
             </ListItem>
             </a>
             <a href="http://172.16.82.90:3500">
